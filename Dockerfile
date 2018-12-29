@@ -4,7 +4,7 @@
 #
 # To create a self sustained swagger spec as its own project:
 #  * Create a project folder with a /app/swagger.yml
-#  * (Create a start script or) run the docker image with 'docker run -p 8080:8080 -v "${PWD}/app:/app" oparaskos/swagger-ui:latest'
+#  * (Create a start script or) run the docker image with 'docker run -p 8080:8080 -v "${PWD}/app:/app" paraskos/swagger-ui:latest'
 #  * Changes are reflected when the page is refreshed.
 #  * Files can be seperated using JSON Reference (supported by Swagger) to facilitate easier merging etc.
 
